@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMON SAYS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        #newtogame {
+            color: aliceblue;
+        }
+
+        #clickhere {
+            color: #74ccc7;
+        }
+
+        #vansh {
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>
+        <span id="simon">SIMON</span> <span id="says">SAYS</span>
+    </h1>
+
+    <h2 class="heading">Press <button class="startbutton"> <b>START</b></button> to Start the game</h2>
+
+    <div class="btn-container">
+        <div class="line1">
+            <div class="btn red" type="button" id="red"></div>
+            <div class="btn green" type="button" id="green"></div>
+        </div>
+        <div class="line2">
+            <div class="btn yellow" type="button" id="yellow"></div>
+            <div class="btn blue" type="button" id="blue"></div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="game-over-modal" id="gameOverModal">
+        <div class="game-over-card">
+            <h1 class="game-over-title">GAME OVER!</h1>
+            <div class="score-container">
+                <p class="score-text">Your Score: <span id="finalScore">0</span></p>
+                <p class="score-text">Highest Score: <span id="highestScore">0</span></p>
+            </div>
+            <button class="restart-btn">Restart Game</button>
+        </div>
+    </div>
+
+    <p id="newtogame">If you're new to the game
+        <a href="rules.html" id="clickhere">Click here</a>
+        to know the rules.
+    </p>
+
+    <br>
+    <p id="vansh">Created with &#128147 by Vansh.</p>
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

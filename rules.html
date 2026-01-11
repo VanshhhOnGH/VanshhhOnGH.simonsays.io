@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game-Rules</title>
+    <style>
+        body {
+            background: linear-gradient(-45deg, #213448, #547792, #94B4C1, #EAE0CF);
+            height: 100vh;
+            width: 100vw;
+            color: #e5e7eb;
+            margin: 0;
+            padding: 0;
+        }
+
+        .rules {
+            max-width: 700px;
+            margin: 40px auto;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+            color: rgb(249, 249, 249);
+            padding: 20px;
+            background: #2a333dcb;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        }
+
+        h1 {
+            margin: 0 0 8px;
+            font-size: 1.4rem;
+        }
+
+        #simon {
+            color: cornflowerblue;
+        }
+
+        #says {
+            color: coral;
+        }
+
+        ol {
+            margin: 12px 0;
+            padding-left: 1.2rem;
+        }
+
+        li {
+            margin: 6px 0;
+            line-height: 1.45;
+        }
+
+        .notes {
+            margin-top: 12px;
+            color: #131212;
+            font-size: 0.95rem;
+        }
+
+        a {
+            color: #05afde;
+            text-decoration: none;
+            font-size: 1.4rem;
+        }
+
+        #ytlink {
+            color: #74ccc7;
+            text-decoration: underline;
+
+        }
+
+        #vansh-rules {
+            text-align: center;
+            margin-top: 140px;
+            color: #131212;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="rules">
+        <header>
+            <h1><span id="simon">Simon</span> <span id="says">Says</span> — Rules</h1>
+            <p>
+                Repeat the sequence of colors in the same order. Each round adds one
+                new color.
+            </p>
+        </header>
+
+        <ol>
+            <li>Watch the <b>sequence shown</b> by the game(in the form of flashes).</li>
+            <li>
+                <b>Repeat the sequence</b> by just clicking on the boxes in the same order.
+            </li>
+            <li>
+                If you match the sequence exactly, you advance to the next round.
+            </li>
+            <li>
+                If you make a mistake, the game ends (and if you want, you can play
+                again).
+            </li>
+            <li>
+                The goal is to complete as many rounds as possible — each round
+                increases the sequence by 1.
+            </li>
+        </ol>
+        <BR></BR>
+        <h1>OR</h1>
+        <p><a href="https://youtu.be/EWJ5uYwQJGU?si=auqxpJVmMcneDQv0" id="ytlink">Click me</a>to watch the tutorial
+            video by <a href="https://youtube.com/@triplesgames?si=iltHhYY5efiSYFWM" id="ytlink">Triple S Games</a>.
+        </p>
+
+
+        <p class="notes">
+            <strong>Tips:</strong> <b> Pay attention to timing and rhythm of the
+                sequence. Break long sequences into smaller chunks to memorize faster. </b>
+        </p>
+        <a href="index.html"> <b>Back to Game</b></a>
+    </main>
+    <p id="vansh-rules">Created with &#128147 by Vansh.</p>
+</body>
+
+</html>
